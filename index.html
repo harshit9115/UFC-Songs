@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>k.shri</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+
+
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img width="35px" class="invert" src="img/kshri.png" alt="spotify">
+                </div>
+
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <h3>Your Library</h3>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><span>Legal</span></div>
+                    <div><span>privacy policy</span></div>
+                    <div><span>Cookies</span></div>
+                    <div><span>About Ads</span></div>
+                    <div><span>Accessibility</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded   m-1">
+            <div class="header">
+
+                <div class="nav">
+
+                    <img class="invert hamburger" src="img/hamburger.svg" alt="">
+                    <div class="search">
+                        <img class="invert Search" src="img/search.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="button">
+                    <button class="signbtn">Sign Up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <div class="card-trend">
+
+
+                    <h2 class="" style="font-size: 30px;">Trends Songs</h2>
+
+                    <div class="scroll-btn">
+                        <img src="back.png" alt="">
+                        <img src="next.png" alt="">
+                    </div>
+                    <div class="trendcontainer">
+
+                        <div class="play">
+                            <img src="img/play.svg" alt="">
+                        </div>
+
+                    </div> <!-- Use this div to insert trend card dynamically -->
+
+                </div>
+                <h2 class="" style="font-size: 30px;">Songs Playlist</h2>
+                <div class="cardcontainer">
+
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img width="35px" id="previous" class="invert" src="img/previous.svg" alt="">
+                        <img width="35px" id="play" class="invert" src="img/play (2).svg" alt="">
+                        <img width="35px" id="next" class="invert" src="img/next.svg" alt="">
+                    </div>
+                    <div class="repeat-btn">
+                        <img height="20px" class="invert" src="repeatall.svg" alt="">
+                    </div>
+                    <div class="timevol"></div>
+                    <div class="songtime">
+
+                    </div>
+                    <div class="volume">
+                        <img style="width: 20px" class="invert" src="img/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" min="0" max="100" value="50" class="volume-slider">
+                            <span class="volume-display"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="clone.js"></script>
+</body>
+
+</html>
