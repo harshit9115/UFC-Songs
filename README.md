@@ -27,8 +27,7 @@ It automatically fetches songs from folders, displays them dynamically, and prov
 
 ---
 
-## 🔗 Live Demo
-👉 [Click Here to Try 🎧]( https://harshit9115.github.io/UFC-Songs/)  
+
 
 ---
 
